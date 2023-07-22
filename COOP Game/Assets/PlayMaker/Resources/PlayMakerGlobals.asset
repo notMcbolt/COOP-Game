@@ -16,19 +16,32 @@ MonoBehaviour:
     floatVariables: []
     intVariables: []
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: DialogueText
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables: []
-    objectVariables: []
+    objectVariables:
+    - useVariable: 1
+      name: DialogueImage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
     arrayVariables: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 000000000000000000000000
   events: []
